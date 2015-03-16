@@ -1,0 +1,102 @@
+body {
+	font-size: 16px;
+	color: #ffffff;
+	background-color: #bcd2d0;
+	padding: 3px;
+}
+
+#header{
+  	top: 0;
+  	left: 0;
+  	margin: 0 auto;
+	font-size: 16px;
+  	padding:0px;
+  	z-index: 1;
+ 	width: 100%;
+  	height: 100px;
+	background-color: #000000;
+	border-radius: 0 0 5px 5px;
+	position:fixed;
+
+}
+
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Raleway', sans-serif;;
+	font-weight: 100;
+	font-size: 40px;
+	margin-left: auto ;
+  	margin-right: auto ;
+	color: #ffffff;
+	text-indent: 15px;
+}
+
+
+
+ul#menu {
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 10px;
+	display: block;
+	text-indent: 10px;
+	position:absolute;right:0;bottom:20;
+	z-index: 999;
+}
+
+
+ul#menu li{
+	display: inline;
+	margin-right: 3px;
+}
+
+
+ul#menu .proj a{
+	padding: 8px 20px;
+	text-decoration: none;
+	font-size: 40px;
+	color: #ffffff;
+	border-radius: 4px 4px 0 0;
+
+}
+ul#menu .home a{
+	padding: 8px 20px;
+	text-decoration: none;
+	font-size: 40px;
+	color: #ffffff;
+	border-bottom: solid 2px;
+	border-radius: 2px 2px 0 0;
+
+}
+ul#menu .Cv a{
+	padding: 8px 20px;
+	text-decoration: none;
+	font-size: 40px;
+	color: #ffffff;
+	border-radius: 4px 4px 0 0;
+
+}
+
+ul#menu li a:hover {
+	color: #39a1e1;
+
+}
+
+ul#menu li.one{
+	background:#ffffff;
+}
+
+
+
+
+#buttons{
+	position:absolute;left:350;bottom:10;
+
+}
+
+#facebook{
+    height: auto;
+}
+
+#GitHub{
+    position:absolute;left: 35;bottom: 20;
+}
